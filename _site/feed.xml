@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deepant</title>
+    <description>欢迎来到deepant的个人博客~</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 04 Sep 2017 22:28:47 +0800</pubDate>
+    <lastBuildDate>Mon, 04 Sep 2017 22:28:47 +0800</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>小熊</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;This is test !
+小熊&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 04 Sep 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2017/09/%E5%B0%8F%E7%86%8A/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/09/%E5%B0%8F%E7%86%8A/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
