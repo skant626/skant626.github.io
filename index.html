@@ -1,28 +1,21 @@
-﻿<!DOCTYPE html>  
-<html lang="en">  
-<head>  
- <meta charset="UTF-8">  
- <title>Login</title>  
- <style>
-    body {
-        background-image: url(" ");
-    } 
-    </style>
- <link rel="stylesheet" type="text/css" href="css/result.css"/>  
-</head> 
-<script type ="text/javascript">
-    function myfun(){
-    alert("this window.onload"); 　　
-    } 　　/*用window.onload调用myfun()*/　　
-    window.onload = myfun;//不要括号
-</script> 
-<body>  
- <div id="login">  
- <h1>Game Over</h1> 
- <p id="demo">我的第一个段落</p>
- <button class="home" type="submit">Home</button>  
- <button class="res" type="submit">Restart</button>  
- </form>  
-</div>  
-</body>  
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Monster Hunter</title>
+</head>
+
+<body>
+    <h3 id="info">Monster Hunter</h3>
+
+    <script>
+        function loadGame() {
+            window.location.href = "./Game.html";
+        }
+    </script>
+
+    <div>
+        <button class="buttonClass" onclick="loadGame()">START</button>
+    </div>
+</body>
+
 </html>
