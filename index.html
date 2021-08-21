@@ -1,34 +1,28 @@
----
-layout: default
----
-
-<div class="main-post-list hidden">
-
-  <ol class="post-list">
-    {% for post in paginator.posts %}
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
-      <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
-      <div class="post-list__meta">
-        <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">
-          <img src="/images/calendar.png" width="20px" />
-          {{ post.date | date: "%F"}}</time>
-        <div class = "tag-img-icon">
-          <img src="/images/tag-icon.svg" width="20px" />
-        </div>
-        <a href="/tags">
-          <div class = "post-list-icon-mate">
-            <span class="post-list__meta--tags-right">{{ post.tags }}</span>
-          </div>
-          <div class = "post-list-small-mate">
-          <a class="btn-border-small" href={{ post.url }}>阅读全文 » </a>
-          </div>
-      </div>
-      <hr class="post-list__divider" />
-    </li>
-    {% endfor %}
-  </ol>
-
-  {% include pagination.html %}
-
-</div>
+﻿<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+ <meta charset="UTF-8">  
+ <title>Login</title>  
+ <style>
+    body {
+        background-image: url(" ");
+    } 
+    </style>
+ <link rel="stylesheet" type="text/css" href="css/result.css"/>  
+</head> 
+<script type ="text/javascript">
+    function myfun(){
+    alert("this window.onload"); 　　
+    } 　　/*用window.onload调用myfun()*/　　
+    window.onload = myfun;//不要括号
+</script> 
+<body>  
+ <div id="login">  
+ <h1>Game Over</h1> 
+ <p id="demo">我的第一个段落</p>
+ <button class="home" type="submit">Home</button>  
+ <button class="res" type="submit">Restart</button>  
+ </form>  
+</div>  
+</body>  
+</html>
